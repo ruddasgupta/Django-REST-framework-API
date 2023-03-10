@@ -1,0 +1,3 @@
+env
+books_api/books/__pycache__
+books_api/books_api/__pycache__
