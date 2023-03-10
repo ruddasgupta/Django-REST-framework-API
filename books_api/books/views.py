@@ -4,8 +4,8 @@ from django.http.response import JsonResponse
 from rest_framework.parsers import JSONParser 
 from rest_framework import status
  
-from books.models import Book
-from books.serializers import BookSerializer
+from .models import Book
+from .serializers import BookSerializer
 from rest_framework.decorators import api_view
 
 
