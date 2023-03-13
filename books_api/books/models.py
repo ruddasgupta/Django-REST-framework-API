@@ -8,3 +8,14 @@ class Book(models.Model):
     publisher = models.CharField(max_length=200, blank=False, default='')
     author = models.CharField(max_length=200, blank=False, default='')
     year = models.IntegerField(blank=False)
+
+    def __str__(self):
+        return {
+            "title": self.title,
+            "description": self.description,
+            "publisher": self.publisher,
+            "year": self.year
+        }.__str__()
+
+
+
