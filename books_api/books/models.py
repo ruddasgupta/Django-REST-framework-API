@@ -14,6 +14,7 @@ class Book(models.Model):
             "title": self.title,
             "description": self.description,
             "publisher": self.publisher,
+            "author": self.author,
             "year": self.year
         }.__str__()
 
